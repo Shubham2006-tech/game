@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teachers Day Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Curtain -->
+  <div id="curtain">
+    <div id="curtain-left"></div>
+    <div id="curtain-right"></div>
+    <div id="tap-text">👉 Tap to Begin</div>
+  </div>
+
+  <!-- Quote -->
+  <div id="quote-section">
+    <div class="quote-card">
+      <h1>Happy Teachers’ Day!</h1>
+      <p>"Thank you for being a great teacher, a friend, and a guide. Your hard work and dedication make you a true hero"</p>
+      <button id="next-btn">Continue ➡</button>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div id="banner-section">
+    <img src="assets/banner.jpg" id="banner" alt="Teachers Day Banner">
+    <button id="play-btn">Play Game 🎮</button>
+  </div>
+
+  <!-- Game Section -->
+  <div id="game-section">
+    <!-- Back button -->
+    <button id="back-btn">⬅ Back</button>
+
+    <!-- Timer -->
+    <div id="timer">02:00</div>
+
+    <!-- Time Up Popup -->
+    <div id="timeup-popup">⏰ Time’s Up! ⏰</div>
+
+    <h2>Select a Teacher</h2>
+    <div id="teacher-list">
+      <button class="teacher-btn" data-img="assets/director.webp">Dr.Rameshwar Gaikwad sir</button>
+      <button class="teacher-btn" data-img="assets/sabiha.jpg">Mrs.Sabiha Shaikh mam</button>
+      <button class="teacher-btn" data-img="assets/ghodke.jpg">Mr.Ghodke sir</button>
+      <button class="teacher-btn" data-img="assets/pallavidakhore.jpg ">Mrs.Dakhore Mam</button>
+      <button class="teacher-btn" data-img="assets/motinge.jpg">Mr.Motinge sir</button>
+      <button class="teacher-btn" data-img="assets/kothule.jpg">Mr.Kothule sir</button>
+      <button class="teacher-btn" data-img="assets/jaiswal.jpg">Mr.Jaiswal sir</button>
+      <button class="teacher-btn" data-img="assets/mishra.jpg">Mr.Mishra sir</button>
+      <button class="teacher-btn" data-img="assets/Nirmiti.jpg">Mrs.Nirmiti mam</button>
+      <button class="teacher-btn" data-img="assets/pallavimam.jpg">Mrs.Jain mam</button>
+      <button class="teacher-btn" data-img="assets/chanchal.jpg">Mrs.Chanchal mam</button>
+      <button class="teacher-btn" data-img="assets/kalyanimam.jpg ">Mrs.kalyani mam</button>
+      <button class="teacher-btn" data-img="assets/sapnamam.jpg ">Mrs.Sapna Mam</button>
+      <button class="teacher-btn" data-img="assets/bhalerao.jpg ">Mrs.Bhalerao mam</button>
+      <button class="teacher-btn" data-img="assets/gandhi.jpg ">Mrs.Gandhi mam</button>
+      <button class="teacher-btn" data-img="assets/deepalimam.jpg ">Mrs.Kawthekar mam</button>
+      <button class="teacher-btn" data-img="assets/more.png ">Mrs.More mam</button>
+
+
+    </div>
+
+    <div id="game-container">
+      <div id="puzzle"></div>
+      <div id="game-controls">
+        <button id="shuffle-btn">Shuffle 🔀</button>
+        <div id="win-message" style="display:none;">
+          🎉 Congratulations! You won the game! 🎉
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Made by Shubham – BCS SY
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
